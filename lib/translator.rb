@@ -22,7 +22,7 @@ def load_library(emoticons)
   new_hash
 end
 
-def get_japanese_emoticon(emoticons, emot)
+def get_japanese_emoticon(emoticons, emote)
   data = load_library(emoticons)
   
   

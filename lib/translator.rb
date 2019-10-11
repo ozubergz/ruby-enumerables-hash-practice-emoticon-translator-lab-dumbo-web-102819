@@ -25,8 +25,11 @@ end
 def get_japanese_emoticon(emoticons, emote)
   data = load_library(emoticons)
   
-  
-  
+  if data[:get_emoticon][emote]
+    data[:get_emoticon][emote]
+  else
+    nil
+  end
 end
 
 def get_english_meaning
